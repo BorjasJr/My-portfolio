@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+
+/* navbar styling*/
+
+.main-nav {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  min-height: 30px;
+  font-size: 20px;
+}
+
+.nav .name {
+  margin-right: auto;
+  color: white;
+  display: block;
+  font-size: 35px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  color: white;
+}
+
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+.nav a {
+  transition: all .5s;
+  color: #40E0D0;
+}
+
+
+/* Header */
+
+header {
+  padding: 200px;
+  color: #40E0D0;
+  line-height: 1.5;
+  text-align: left;
+  width: 80%;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white;
+}
+ header h2,
+ p {
+   color: gray;
+ }
+
+ header p {
+   padding-top: 10px;
+   color: white;
+ }
+
+ .tag-name {
+   text-align: left;
+ }
+
+/* Main About */
+
+.main-about {
+  background-color: white;
+}
+
+ div h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Footer */
+
+
+footer h3 {
+  color: white;
+  background-color: #40E0D0;
+  text-align: center;
+  flex-shrink: 0;
+}
