@@ -1,0 +1,91 @@
+* {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* NAV BAR */
+
+li, a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  margin-right: auto;
+  padding-right: 700px;
+  color: red;
+  display: block;
+  font-size: 35px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  trasnsition: all 0.3 easer 0s;
+}
+
+.nav-links li a:hover {
+  color: red;
+}
+
+/* THE MAIN PICTURE */
+
+main {
+  background-image: url('../img/keyboard.jpg');
+  width: 100%;
+  height: 600px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 200px;
+  font-size: 2em;
+  color: white;
+}
+
+.name {
+  color: black;
+}
+
+/* ABOUT */
+
+.container {
+  margin: 100px auto;
+  width: 50%;
+  padding: 8px;
+}
+
+img {
+  width: 300px;
+  float: left;
+  height: auto;
+  padding: 0 10px 0 0;
+}
+
+.text-col {
+  text-align: justify;
+}
+
+.container h1 {
+  text-align: ceter;
+}
